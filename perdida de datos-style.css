@@ -1,0 +1,84 @@
+body {
+  background-color: rgb(222, 222, 228);
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.img-header {
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  color: rgb(230, 228, 228);
+  /* linear-gradient oscurece el fondo para resaltar fuentes*/
+  background-image: linear-gradient(0deg,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)), url("https://www.muycomputer.com/wp-content/uploads/2020/12/ciberseguridad_en_2020.jpg");
+  height: 12cm;
+  background-size: cover;
+  background-position: center;
+  border-bottom: solid 4px grey;
+  border-top: solid 4px grey;
+}
+
+footer {
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0;
+  width: 100%;
+  margin-top: 40px;
+  color: white;
+  background-color: black;
+
+
+}
+
+h1 {
+  text-align: center;
+
+}
+
+p {
+  text-align: center;
+
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+h4 {
+  text-align: center;
+
+}
+
+iframe {
+  margin-left: 410px;
+
+}
+
+ol {
+  margin-left: 200px;
+
+}
+
+ul {
+  margin-left: 200px;
+
+}
+
+h2{
+  text-align: center;
+
+}
+h3{
+  text-align: center;
+
+}
+h4{
+  text-align: center;
+
+}
+.social {
+  margin-left: 0px;
+
+}
